@@ -61,3 +61,63 @@ body {
 
 
 }
+
+.call-to-action{
+    cursor: pointer;
+    background-color: #ffffff;
+    border:0;
+    padding: 14px;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: 0.9s;
+}
+
+.call-to-action hover{
+    transform: scale(1.1);
+
+}
+
+.sobre{
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    padding-left:10% ;
+    padding-right: 10%;
+    padding-bottom: 80px;
+    padding-top: 80px;
+
+
+    align-items: center;
+    justify-content: space-between;
+
+    
+}
+
+.sobre div{
+
+    max-width: 50%;
+    padding-right: 40px;
+
+}
+.sobre img{
+
+    max-width: 450px;
+    border-radius: 8px ;
+}
+
+
+.sobre h2{
+
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.projetos{
+
+    width: 100%;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0 ;
+}
